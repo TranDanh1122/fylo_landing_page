@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <header class="container w-[90%] max-w-[1440px] mx-auto">
+    <nav class="w-full flex flex-nowrap justify-between pt-12">
+      <img src="/images/logo.svg" alt="logo" class="w-40 mb:w-20 h-12 mb:h-6 object-cover">
+      <ul class="list-none flex flex-nowrap gap-14 mb:gap-4 font-rail text-very_dark_blue mb:text-[0.75rem]">
+        <li><a href="#" title="Features">Features </a></li>
+        <li><a href="#" title="Team">Team </a></li>
+        <li><a href="#" title="Sign In">Sign In </a></li>
+      </ul>
+    </nav>
+    <div class="flex flex-nowrap items-center justify-between gap-4 mt-20 mb:flex-wrap mb:flex-col-reverse">
+      <div class="w-full max-w-[630px]"">
+        <h1
+          class=" text-very_dark_blue font-rail mb:font-opsans text-[2.5rem] mb:text-[1.5rem] font-bold
+        leading-[3.75rem] mb:leading-9 mb:text-center">
+        All your files in one secure location, accessible anywhere.</h1>
+        <p class="text-very_dark_blue font-opsans leading-6 tracking-[0.53px] mt-4 mb:mt-6 mb-6 mb:mb-8 mb:text-center">
+          Fylo stores your most
+          important files in
+          one secure location.
+          Access them wherever you need, share and collaborate with friends,
+          family, and co-workers.</p>
+        <form class="flex flex-nowrap items-center justify-between gap-4 mb:gap-8 mb:flex-wrap" action="#" novalidate>
+          <div class="relative  flex-1">
+            <input type="text" placeholder="Enter your email…" name="email"
+              class="px-6 w-full  py-4 border-solid border-[1px] border-very_dark_blue font-opsans text-[0.875rem] text-very_dark_blue">
+            <span class="error hidden absolute w-full h-full top-full left-0 text-red-400">Error text</span>
+          </div>
+          <button type="submit"
+            class="font-bold block w-max mb:w-full font-rail rounded-md shadow-sm shadow-light_gray hover:bg-opacity-50 cursor-pointer text-[0.875rem] text-white py-4 px-24 bg-bright_blue">Get
+            Started</button>
+        </form>
+      </div>
+      <img src="./images/illustration-1.svg" alt="illustration-1" class="w-full max-w-[640px] object-cover h-full">
+    </div>
+  </header>
+
+  <main>
+    <div
+      class="mt-40 mb:mt-16 bg-contain bg-no-repeat bg-top bg-[url(images/bg-curve-desktop.svg)] mb:bg-[url(images/bg-curve-mobile.svg)] pt-40 mb:pt-24 translate-y-4 mb:translate-y-11">
+    </div>
+    <section class=" bg-light_grayish_blue">
+      <div
+        class="container w-[90%] max-w-[1440px] mx-auto flex flex-nowrap items-center justify-between gap-20 mb:flex-wrap pb-24 ">
+        <div class="w-full max-w-[650px]  mb:order-2">
+          <h2
+            class="font-rail font-bold text-[2.5rem] leading-[2.5rem] text-very_dark_blue mb:text-[1rem] mb:leading-6 mb:text-center mb-9 mb:mb-6">
+            Stay productive, wherever you are
+          </h2>
+          <p
+            class="font-opsans leading-6 text-very_dark_blue mb:text-[0.875rem] mb:leading-5 mb:text-center mb:text-desaturated_blue mb-4 max-w-[530px]">
+            Never let location be an issue when accessing your files. Fylo has you
+            covered for all of your file storage needs.
+          </p>
+          <p
+            class="font-opsans leading-6 text-very_dark_blue mb:text-[0.875rem] mb:leading-5 mb:text-center mb:text-desaturated_blue mb-4 mb:mb-9 max-w-[530px]">
+            Securely share files and folders with friends, family and colleagues for
+            live collaboration. No email attachments required!
+          </p>
+          <span
+            class="font-opsans cursor-pointer text-moderate_cyan hover:text-opacity-50 mb-11 mb:mb-10 mb:text-center block">
+            See how Fylo works
+          </span>
+          <div class="px-8 mb:px-6 py-6 mb:py-4 shadow-md shadow-light_gray w-full max-w-[360px] bg-white">
+            <i class="block bg-black w-[1.125rem] h-12"
+              style="mask:url(images/icon-quotes.svg) center / contain no-repeat; -webkit-mask:url(images/icon-quotes.svg) center / contain no-repeat;"></i>
+            <p class="font-opsans text-[0.8125rem] mb:text-[0.625rem] leading-6 mb:leading-4 tracking-[1px]"> Fylo has
+              improved our team productivity by an order of magnitude. Since
+              making the switch our team has become a well-oiled collaboration machine.</p>
+            <div class="flex flex-nowrap gap-2 mt-4">
+              <img src="./images/avatar-testimonial.jpg" alt="avatar-testimonial"
+                class="w-8 mb:w-6 h-8 mb:h-6  object-cover rounded-[50%]">
+              <div>
+                <span
+                  class="block font-opsansn font-bold text-[0.625rem] tracking-[0.55px] text-very_dark_blue mb:tracking-[0.45px]">
+                  Kyle
+                  Burton</span>
+                <span class=" font-opsans text-[.5rem] text-very_dark_blue leading-4"> Founder & CEO, Huddle </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="images/illustration-2.svg" alt="illustration-2"
+          class="w-full h-full object-cover max-w-[542px] mb:order-1">
+      </div>
+    </section>
+    <section class="bg-desaturated_blue">
+
+      <div
+        class="container w-[90%] max-w-[1440px] mx-auto flex flex-nowrap items-center justify-between gap-20 mb:flex-wrap p-24">
+        <div class="w-full max-w-[533px]">
+          <h2
+            class="font-rail font-bold text-[2rem] mb:text-[1.125rem] leading-[3rem] mb:leading-6 text-white mb:text-center">
+            Get early access today</h2>
+          <p class="text-white font-opsans leading-6 mb:leading-5 mmb:text-[1.25rem] mb:text-center mt-4"> It only takes
+            a
+            minute to sign up and our free starter tier is extremely generous.
+            If you have any questions, our support team would be happy to help you.</p>
+        </div>
+        <form class="flex flex-nowrap flex-col items-start justify-between gap-12 w-full max-w-[480px] " action="#"
+          novalidate>
+          <div class="relative w-full">
+            <input type="text" placeholder="Enter your email…" name="email"
+              class="px-6 w-full  py-4 border-solid border-[1px] border-very_dark_blue font-opsans text-[0.875rem] text-very_dark_blue">
+            <span class="error hidden absolute w-full h-full top-full left-0 text-red-400">Error text</span>
+          </div>
+          <button type="submit"
+            class="font-bold block w-max mb:w-full font-rail rounded-md shadow-sm shadow-light_gray hover:bg-opacity-50 cursor-pointer text-[0.875rem] text-white py-4 px-24 bg-bright_blue">
+            Get Started For Free</button>
+        </form>
+      </div>
+
+    </section>
+  </main>
+
+
+
+  <footer class="bg-very_dark_blue">
+    <div
+      class="pt-36 pb-16 pr-20 mb:pr-4 pl-28 mb:pl-4 flex flex-nowrap items-stretch justify-between mb:justify-start gap-[8rem] mb:flex-wrap mb:gap-4">
+      <div class="mb:w-full">
+        <i class="block w-[9.5rem] h-6 bg-white"
+          style="mask: url(images/logo.svg) center / contain no-repeat; -webkit-mask: url(images/logo.svg) center / contain no-repeat"></i>
+        <ul class="w-full flex flex-col justify-center items-start gap-4 mt-8">
+          <li class="flex items-center justify-start gap-4 cursor-pointer">
+            <i class="block w-6 h-6 bg-white"
+              style="mask: url(images/icon-phone.svg) center / contain no-repeat; -webkit-mask: url(images/icon-phone.svg) center / contain no-repeat"></i>
+            <a href="tel:1-543-123-4567" class="font-opsans text-[0.875rem] leading-6 text-white hover:text-bright_blue"
+              title="phone">
+              Phone: +1-543-123-4567
+            </a>
+          </li>
+          <li class="flex items-center justify-start gap-4 cursor-pointer">
+            <i class="block w-6 h-6 bg-white"
+              style="mask: url(images/icon-email.svg) center / contain no-repeat; -webkit-mask: url(images/icon-email.svg) center / contain no-repeat"></i>
+            <a href="mailto:example@fylo.com"
+              class="font-opsans text-[0.875rem] leading-6 text-white hover:text-bright_blue" title="mail">
+              example@fylo.com</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="mb:w-full flex flex-col justify-center items-start gap-4 ">
+        <li class="cursor-pointer"><a href="#"
+            class="font-opsans text-[0.875rem] leading-6 text-white hover:text-bright_blue" title="About"> About Us</a>
+        </li>
+        <li class="cursor-pointer"><a href="#"
+            class="font-opsans text-[0.875rem] leading-6 text-white hover:text-bright_blue" title="Jobs"> Jobs</a></li>
+        <li class="cursor-pointer"><a href="#"
+            class="font-opsans text-[0.875rem] leading-6 text-white hover:text-bright_blue" title="Press"> Press</a>
+        </li>
+        <li class="cursor-pointer"><a href="#"
+            class="font-opsans text-[0.875rem] leading-6 text-white hover:text-bright_blue" title="Blog"> Blog</a></li>
+      </ul>
+      <ul class="mb:w-full flex flex-col justify-center items-start gap-4 ">
+        <li class="cursor-pointer"><a href="#"
+            class="font-opsans text-[0.875rem] leading-6 text-white hover:text-bright_blue" title=" Contact Us"> Contact
+            Us</a>
+        </li>
+        <li class="cursor-pointer"><a href="#"
+            class="font-opsans text-[0.875rem] leading-6 text-white hover:text-bright_blue" title="Terms"> Terms</a>
+        </li>
+        <li class="cursor-pointer"><a href="#"
+            class="font-opsans text-[0.875rem] leading-6 text-white hover:text-bright_blue" title="Privacy"> Privacy</a>
+        </li>
+      </ul>
+
+      <ul class="mb:w-full mb:mt-8 flex gap-4 items-start justify-start mb:justify-center mb:items-center">
+        <li>
+          <a href="#" title="facebook">
+            <i class="block w-8 h-8 bg-white hover:bg-bright_blue rounded-[50%]"
+              style="mask:url(images/facebook.svg) center / contain no-repeat; -webkit-mask:url(images/facebook.svg) center / contain no-repeat"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" title="facebook">
+            <i class="block w-8 h-8 bg-white hover:bg-bright_blue rounded-[50%]"
+              style="mask:url(images/twitter.svg) center / contain no-repeat; -webkit-mask:url(images/twitter.svg) center / contain no-repeat"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" title="facebook">
+            <i class="block w-8 h-8 bg-white hover:bg-bright_blue rounded-[50%]"
+              style="mask:url(images/ig.svg) center / contain no-repeat; -webkit-mask:url(images/ig.svg) center / contain no-repeat"></i>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/TranDanh1122">Trần Thành Danh</a>.
+    </p>
+  </footer>
+</body>
+<script>
+  let forms = document.querySelectorAll('form')
+  let isInValid = {
+    checkNull: () => {
+      if (isInValid.email) return true
+      return ['email', 'Input you email here']
+    },
+    checkValidEmail: () => {
+      if ((/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/).test(isInValid.email)) return true
+      return ['email', 'Please check your email']
+    },
+    passAll: () => false,
+    init: (data) => {
+      isInValid.email = data.email
+    },
+    email: null
+  }
+  let handleSubmitForm = (e) => {
+    e.preventDefault()
+    let data = Object.fromEntries(new FormData(e.target))
+    if (!data) return false
+    isInValid.init(data)
+    for (const key in isInValid) {
+      if (typeof isInValid[key] != "function") continue
+      let error = isInValid[key]()
+      if (!error) {
+        let input = e.target.querySelector(`input`)
+        input.toggleAttribute('error', false)
+        input.nextElementSibling.textContent = ""
+        break;
+      };
+      if (typeof error == "boolean") continue
+      let input = e.target.querySelector(`input[name="${error[0]}"]`)
+      input.toggleAttribute('error', true)
+      input.nextElementSibling.textContent = error[1]
+      break;
+    }
+
+  }
+  forms.forEach(el => el.addEventListener('submit', handleSubmitForm))
+</script>
+
+</html>

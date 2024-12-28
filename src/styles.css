@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    input[error] {
+        border: 1px solid red;
+    }
+    input[error] + .error {
+        display: block;
+    }
+}
